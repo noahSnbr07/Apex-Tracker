@@ -1,0 +1,40 @@
+:root {
+  font-size: 16px;
+  --accent: red;
+  --color: #cecece;
+  --background: rgba(255, 255, 255, 0.05);
+}
+
+body {
+  height: 100dvh;
+  width: 100dvw;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background: rgb(68, 0, 0);
+  background-image: radial-gradient(circle,
+      rgb(15, 0, 0) 33%,
+      rgba(0, 0, 0, 1) 100%);
+  color: #cecece;
+}
+
+* {
+  box-sizing: border-box;
+  transition: 150ms ease-out;
+  font-family: Arial;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.material-symbols-rounded {
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 200,
+    'GRAD' -25,
+    'opsz' 20
+}

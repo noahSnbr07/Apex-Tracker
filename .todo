@@ -1,0 +1,449 @@
+{
+"global": {
+"name": "skullrider612",
+"uid": "1108014923596467051",
+"avatar": null,
+"platform": "PS4",
+"level": 32,
+"toNextLevelPercent": 77,
+"internalUpdateCount": 12324,
+"bans": {
+"isActive": false,
+"remainingSeconds": 0,
+"last_banReason": "COMPETITIVE_DODGE_COOLDOWN"
+},
+"rank": {
+"rankScore": 7341,
+"rankName": "Bronze",
+"rankDiv": 1,
+"ladderPosPlatform": -1,
+"rankImg": "https://api.mozambiquehe.re/assets/ranks/bronze1.png",
+"rankedSeason": "br_ranked",
+"ALStopPercent": 27.59,
+"ALStopInt": 606469,
+"ALStopPercentGlobal": 28.26,
+"ALStopIntGlobal": 2751373,
+"ALSFlag": false
+},
+"arena": {
+"rankScore": 0,
+"rankName": "Unranked",
+"rankDiv": 0,
+"ladderPosPlatform": -1,
+"rankImg": "https://api.mozambiquehe.re/assets/ranks/unranked4.png",
+"rankedSeason": "arenas19_split_0",
+"ALStopPercent": "No game this split",
+"ALStopInt": "No game this split",
+"ALStopPercentGlobal": "No game this split",
+"ALStopIntGlobal": "No game this split",
+"ALSFlag": true
+},
+"battlepass": {
+"level": null,
+"history": null
+},
+"internalParsingVersion": 2,
+"badges": [
+{
+"name": "You're Tiering Me Apart: Ranked Season 17",
+"value": 122
+},
+{
+"name": "April Fools",
+"value": 0
+}
+],
+"levelPrestige": 1
+},
+"realtime": {
+"lobbyState": "open",
+"isOnline": 0,
+"isInGame": 0,
+"canJoin": 0,
+"partyFull": 0,
+"selectedLegend": "Bangalore",
+"currentState": "offline",
+"currentStateSinceTimestamp": -1,
+"currentStateAsText": "Offline"
+},
+"legends": {
+"selected": {
+"LegendName": "Bangalore",
+"data": [],
+"gameInfo": {
+"skin": "The Enforcer",
+"skinRarity": "Legendary",
+"frame": "Weapon Check",
+"frameRarity": "Legendary",
+"pose": "Locked and Loaded",
+"poseRarity": "Rare",
+"intro": "You better finish the job",
+"introRarity": "Rare",
+"badges": [
+{
+"name": "You're Tiering Me Apart: Ranked Season 17",
+"value": 122,
+"category": "Account Badges"
+},
+{
+"name": "No One Left Behind",
+"value": 0,
+"category": "Bangalore"
+},
+{
+"name": "Ignite Level: Season 19",
+"value": 20,
+"category": "Account Badges"
+},
+{
+"name": "Ignite Level: Season 19",
+"value": 20,
+"category": "Account Badges"
+}
+]
+},
+"ImgAssets": {
+"icon": "https://api.mozambiquehe.re/assets/icons/bangalore.png",
+"banner": "https://api.mozambiquehe.re/assets/banners/bangalore.jpg"
+}
+},
+"all": {
+"Global": {
+"ImgAssets": {
+"icon": "https://api.mozambiquehe.re/assets/icons/global.png",
+"banner": "https://api.mozambiquehe.re/assets/banners/global.jpg"
+}
+},
+"Revenant": {
+"ImgAssets": {
+"icon": "https://api.mozambiquehe.re/assets/icons/revenant.png",
+"banner": "https://api.mozambiquehe.re/assets/banners/revenant.jpg"
+}
+},
+"Crypto": {
+"ImgAssets": {
+"icon": "https://api.mozambiquehe.re/assets/icons/crypto.png",
+"banner": "https://api.mozambiquehe.re/assets/banners/crypto.jpg"
+}
+},
+"Horizon": {
+"ImgAssets": {
+"icon": "https://api.mozambiquehe.re/assets/icons/horizon.png",
+"banner": "https://api.mozambiquehe.re/assets/banners/horizon.jpg"
+}
+},
+"Gibraltar": {
+"ImgAssets": {
+"icon": "https://api.mozambiquehe.re/assets/icons/gibraltar.png",
+"banner": "https://api.mozambiquehe.re/assets/banners/gibraltar.jpg"
+}
+},
+"Wattson": {
+"ImgAssets": {
+"icon": "https://api.mozambiquehe.re/assets/icons/wattson.png",
+"banner": "https://api.mozambiquehe.re/assets/banners/wattson.jpg"
+}
+},
+"Fuse": {
+"ImgAssets": {
+"icon": "https://api.mozambiquehe.re/assets/icons/fuse.png",
+"banner": "https://api.mozambiquehe.re/assets/banners/fuse.jpg"
+}
+},
+"Bangalore": {
+"data": [
+{
+"name": "BR Season 14 kills",
+"value": 134,
+"key": "kills_season_14",
+"rank": {
+"rankPos": 6163,
+"topPercent": 12.98
+},
+"rankPlatformSpecific": {
+"rankPos": 1528,
+"topPercent": 33.84
+}
+},
+{
+"name": "BR Season 14 wins",
+"value": 5,
+"key": "wins_season_14",
+"rank": {
+"rankPos": 12037,
+"topPercent": 14.38
+},
+"rankPlatformSpecific": {
+"rankPos": 2444,
+"topPercent": 31.01
+}
+}
+],
+"gameInfo": {
+"badges": [
+{
+"name": "No One Left Behind",
+"value": 0
+}
+]
+},
+"ImgAssets": {
+"icon": "https://api.mozambiquehe.re/assets/icons/bangalore.png",
+"banner": "https://api.mozambiquehe.re/assets/banners/bangalore.jpg"
+}
+},
+"Wraith": {
+"ImgAssets": {
+"icon": "https://api.mozambiquehe.re/assets/icons/wraith.png",
+"banner": "https://api.mozambiquehe.re/assets/banners/wraith.jpg"
+}
+},
+"Octane": {
+"data": [
+{
+"name": "BR Kills",
+"value": 781,
+"key": "specialEvent_kills",
+"rank": {
+"rankPos": 787835,
+"topPercent": 31.66
+},
+"rankPlatformSpecific": {
+"rankPos": 225602,
+"topPercent": 43.19
+}
+},
+{
+"name": "BR Damage",
+"value": 282613,
+"key": "specialEvent_damage",
+"rank": {
+"rankPos": 725285,
+"topPercent": 32.71
+},
+"rankPlatformSpecific": {
+"rankPos": 197478,
+"topPercent": 43.36
+}
+},
+{
+"name": "BR Wins",
+"value": 40,
+"key": "specialEvent_wins",
+"rank": {
+"rankPos": 395464,
+"topPercent": 31.19
+},
+"rankPlatformSpecific": {
+"rankPos": 120220,
+"topPercent": 44.25
+}
+}
+],
+"gameInfo": {
+"badges": [
+{
+"name": "Octane's Wrath",
+"value": 0
+},
+{
+"name": "NOT_IMPLEMENTED_YET_518790943",
+"value": 8
+}
+]
+},
+"ImgAssets": {
+"icon": "https://api.mozambiquehe.re/assets/icons/octane.png",
+"banner": "https://api.mozambiquehe.re/assets/banners/octane.jpg"
+}
+},
+"Bloodhound": {
+"ImgAssets": {
+"icon": "https://api.mozambiquehe.re/assets/icons/bloodhound.png",
+"banner": "https://api.mozambiquehe.re/assets/banners/bloodhound.jpg"
+}
+},
+"Caustic": {
+"ImgAssets": {
+"icon": "https://api.mozambiquehe.re/assets/icons/caustic.png",
+"banner": "https://api.mozambiquehe.re/assets/banners/caustic.jpg"
+}
+},
+"Lifeline": {
+"ImgAssets": {
+"icon": "https://api.mozambiquehe.re/assets/icons/lifeline.png",
+"banner": "https://api.mozambiquehe.re/assets/banners/lifeline.jpg"
+}
+},
+"Pathfinder": {
+"ImgAssets": {
+"icon": "https://api.mozambiquehe.re/assets/icons/pathfinder.png",
+"banner": "https://api.mozambiquehe.re/assets/banners/pathfinder.jpg"
+}
+},
+"Loba": {
+"ImgAssets": {
+"icon": "https://api.mozambiquehe.re/assets/icons/loba.png",
+"banner": "https://api.mozambiquehe.re/assets/banners/loba.jpg"
+}
+},
+"Mirage": {
+"data": [
+{
+"name": "BR Kills",
+"value": 28,
+"key": "specialEvent_kills",
+"rank": {
+"rankPos": 1231527,
+"topPercent": 88.91
+},
+"rankPlatformSpecific": {
+"rankPos": 292426,
+"topPercent": 93.87
+}
+},
+{
+"name": "BR Damage",
+"value": 9286,
+"key": "specialEvent_damage",
+"rank": {
+"rankPos": 1111905,
+"topPercent": 91.36
+},
+"rankPlatformSpecific": {
+"rankPos": 270859,
+"topPercent": 94.66
+}
+},
+{
+"name": "BR Season 14 kills",
+"value": 0,
+"key": "kills_season_14",
+"rank": {
+"rankPos": "NOT_CALCULATED_YET",
+"topPercent": "NOT_CALCULATED_YET"
+},
+"rankPlatformSpecific": {
+"rankPos": "NOT_CALCULATED_YET",
+"topPercent": "NOT_CALCULATED_YET"
+}
+}
+],
+"ImgAssets": {
+"icon": "https://api.mozambiquehe.re/assets/icons/mirage.png",
+"banner": "https://api.mozambiquehe.re/assets/banners/mirage.jpg"
+}
+},
+"Rampart": {
+"ImgAssets": {
+"icon": "https://api.mozambiquehe.re/assets/icons/rampart.png",
+"banner": "https://api.mozambiquehe.re/assets/banners/rampart.jpg"
+}
+},
+"Valkyrie": {
+"ImgAssets": {
+"icon": "https://api.mozambiquehe.re/assets/icons/valkyrie.png",
+"banner": "https://api.mozambiquehe.re/assets/banners/valkyrie.jpg"
+}
+},
+"Seer": {
+"data": [
+{
+"name": "BR Kills",
+"value": 8,
+"key": "kills",
+"rank": {
+"rankPos": 2583118,
+"topPercent": 88.69
+},
+"rankPlatformSpecific": {
+"rankPos": "NOT_CALCULATED_YET",
+"topPercent": "NOT_CALCULATED_YET"
+}
+}
+],
+"ImgAssets": {
+"icon": "https://api.mozambiquehe.re/assets/icons/seer.png",
+"banner": "https://api.mozambiquehe.re/assets/banners/seer.jpg"
+}
+},
+"Ash": {
+"ImgAssets": {
+"icon": "https://api.mozambiquehe.re/assets/icons/ash.png",
+"banner": "https://api.mozambiquehe.re/assets/banners/ash.jpg"
+}
+},
+"Mad Maggie": {
+"ImgAssets": {
+"icon": "https://api.mozambiquehe.re/assets/icons/mad maggie.png",
+"banner": "https://api.mozambiquehe.re/assets/banners/mad maggie.jpg"
+}
+},
+"Newcastle": {
+"ImgAssets": {
+"icon": "https://api.mozambiquehe.re/assets/icons/newcastle.png",
+"banner": "https://api.mozambiquehe.re/assets/banners/newcastle.jpg"
+}
+},
+"Vantage": {
+"ImgAssets": {
+"icon": "https://api.mozambiquehe.re/assets/icons/vantage.png",
+"banner": "https://api.mozambiquehe.re/assets/banners/vantage.jpg"
+}
+},
+"Catalyst": {
+"ImgAssets": {
+"icon": "https://api.mozambiquehe.re/assets/icons/catalyst.png",
+"banner": "https://api.mozambiquehe.re/assets/banners/catalyst.jpg"
+}
+},
+"Ballistic": {
+"ImgAssets": {
+"icon": "https://api.mozambiquehe.re/assets/icons/ballistic.png",
+"banner": "https://api.mozambiquehe.re/assets/banners/ballistic.jpg"
+}
+},
+"Conduit": {
+"ImgAssets": {
+"icon": "https://api.mozambiquehe.re/assets/icons/conduit.png",
+"banner": "https://api.mozambiquehe.re/assets/banners/conduit.jpg"
+}
+}
+}
+},
+"mozambiquehere_internal": {
+"isNewToDB": false,
+"clusterSrv": "fr-1"
+},
+"total": {
+"kills_season_14": {
+"name": "BR Season 14 kills",
+"value": 134
+},
+"wins_season_14": {
+"name": "BR Season 14 wins",
+"value": 5
+},
+"specialEvent_kills": {
+"name": "BR Kills",
+"value": 809
+},
+"specialEvent_damage": {
+"name": "BR Damage",
+"value": 291899
+},
+"specialEvent_wins": {
+"name": "BR Wins",
+"value": 40
+},
+"kills": {
+"name": "BR Kills",
+"value": 8
+},
+"kd": {
+"value": "-1",
+"name": "KD"
+}
+},
+"processingTime": 0.15506601333618164
+}
