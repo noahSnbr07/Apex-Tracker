@@ -3,6 +3,7 @@
   --accent: red;
   --color: #cecece;
   --background: rgba(255, 255, 255, 0.05);
+  --border-radius: 15px;
 }
 
 body {
@@ -11,9 +12,9 @@ body {
   margin: 0px;
   padding: 0px;
   overflow: hidden;
-  background: rgb(68, 0, 0);
+  background: rgb(50, 0, 0);
   background-image: radial-gradient(circle,
-      rgb(15, 0, 0) 33%,
+      rgb(50, 0, 0) 33%,
       rgba(0, 0, 0, 1) 100%);
   color: #cecece;
 }
@@ -32,9 +33,21 @@ body {
   user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
-  font-variation-settings:
-    'FILL' 0,
-    'wght' 200,
-    'GRAD' -25,
-    'opsz' 20
+  padding: 10px;
+  border-radius: var(--border-radius);
+
+  &:hover {
+    background-color: var(--background);
+    cursor: pointer;
+  }
+
+  &:active {
+    cursor: pointer;
+    background-color: var(--background);
+  }
+
+  font-variation-settings: 'FILL' 0,
+  'wght' 300,
+  'GRAD' -25,
+  'opsz' 20
 }
