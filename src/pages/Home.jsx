@@ -2,9 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import Icon from '../utils/components/Icon.jsx';
 import { BarLoader } from 'react-spinners';
-import '../styles/home.css';
-import Invalid from '../utils/components/Invalid.jsx';
-
+import Navbar from '../utils/components/Navbar.jsx';
+import '../styles/home.css'
 export default function Home() {
     const { user, platform } = useParams();
     const key = import.meta.env.VITE_API_KEY;
@@ -17,6 +16,7 @@ export default function Home() {
                 .then((res) => res.json())
                 .then((response) => {
                     setData(response);
+                    console.log(data);
                 })
                 .catch((e) => {
                     console.error(e);
@@ -30,17 +30,6 @@ export default function Home() {
         getDataFromAPI();
     }, [user, platform]);
 
-    const TopNavBar = () => (
-        <nav className='top-nav-bar'>
-            <header className='nav-header'>{user}</header>
-            <div>
-                <Icon onClick={getDataFromAPI} className='nav-link' icon={'refresh'} />
-                <Link to='/login'>
-                    <Icon className='nav-link' icon={'logout'} />
-                </Link>
-            </div>
-        </nav>
-    );
 
     const Stat = ({ name, value }) => (
         <div className='listedStat'>
@@ -49,19 +38,30 @@ export default function Home() {
         </div>
     );
 
+    const getLevel = () => {
+        if (data.global.levelPrestige === 1) {
+            return (data.global.level + 500);
+        }
+        else {
+            return data.global.level
+        }
+    }
+
     return (
         <div className='home-page'>
-            <TopNavBar />
+            <Navbar
+                title={user}
+                action={() => { getDataFromAPI(); }}
+            />
             <main className='home-main'>
                 {data ? (
                     <>
                         <Stat name='State' value={data.realtime.currentStateAsText || ''} />
                         <Stat name='Legend' value={data.realtime.selectedLegend || ''} />
-                        <Stat name='Level' value={data.global.level || ''} />
+                        <Stat name='Level' value={getLevel() || ''} />
                         <Stat name='Rank' value={data.global.rank.rankName || ''} />
                         <Stat name='Ranked Score' value={data.global.rank.rankScore || ''} />
                         <Stat name='Ranked Division' value={data.global.rank.rankDiv || ''} />
-                        <Stat name='Time taken' value={data.processingTime ? data.processingTime.toFixed(2) : ''} />
                     </>
                 ) : (
                     <BarLoader color='white' className='loader' />

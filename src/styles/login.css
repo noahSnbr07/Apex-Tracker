@@ -14,14 +14,14 @@
 
 .users-select-dropdown {
     width: 90%;
-    height: 50%;
+    height: 75%;
     overflow-y: scroll;
 }
 
 .user-listed {
     color: var(--color);
     background: var(--background);
-    height: 15%;
+    height: 10%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -51,14 +51,22 @@
 
     & img {
         height: 75%;
+        max-width: 20%;
         aspect-ratio: 1 / 1;
         margin: 0 20px;
+    }
+
+    & p {
+        width: 80%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 }
 
 .user-remove {
     height: 100%;
-    width: 10%;
+    width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;

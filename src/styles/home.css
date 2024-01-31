@@ -2,27 +2,6 @@
     height: 100dvh;
 }
 
-.top-nav-bar {
-    background-color: var(--background);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 10%;
-    width: 100%;
-    padding: 0 20px;
-
-}
-
-.nav-link {
-    color: var(--color);
-    font-size: 2.5rem;
-}
-
-.nav-header {
-    font-size: 2rem;
-}
-
 .home-main {
     display: flex;
     flex-direction: column;
@@ -31,6 +10,8 @@
     height: 90%;
     width: 100%;
     overflow-y: scroll;
+    position: absolute;
+    bottom: 0;
 }
 
 .listedStat {
@@ -44,17 +25,4 @@
     padding: 0 20px;
     font-size: 1.5rem;
     margin: 10px 0;
-}
-
-.main-refresh-button {
-    background-color: var(--background);
-    width: 100%;
-    height: 10%;
-    border: none;
-    color: var(--color);
-    margin: 10px 0;
-
-    & span {
-        font-size: 3rem;
-    }
 }

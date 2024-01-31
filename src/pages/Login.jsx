@@ -21,6 +21,9 @@ export default function Login() {
                 <Link to={'/new'} className='user-listed-new'>
                     <Icon icon={'add_circle'} />
                 </Link>
+                <Link to={'/replicator'} className='user-listed-new'>
+                    <Icon icon={'store'} />
+                </Link>
                 {usersList.map((user, index) => {
                     return (
                         <div
@@ -35,7 +38,7 @@ export default function Login() {
                                     src={user.platform === 'PS4' ? playstation :
                                         user.platform === 'PC' ? pc : xbox} />
 
-                                {user.name}
+                                <p>{user.name}</p>
                             </Link>
 
                             <Icon
