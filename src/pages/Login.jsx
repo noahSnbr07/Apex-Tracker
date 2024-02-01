@@ -24,13 +24,14 @@ export default function Login() {
                 <Link to={'/replicator'} className='user-listed-new'>
                     <Icon icon={'store'} />
                 </Link>
+                <Link to={'/rotation'} className='user-listed-new'>
+                    <Icon icon={'map'} />
+                </Link>
                 {usersList.map((user, index) => {
                     return (
                         <div
                             key={user.id}
-
                             className='user-listed'>
-
                             <Link
                                 to={`/home/${user.name}/${user.platform}`}
                                 className='user-data'>

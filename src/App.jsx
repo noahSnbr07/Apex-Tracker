@@ -4,6 +4,7 @@ import Login from './pages/Login';
 import Home from './pages/Home';
 import NewUser from './pages/NewUser';
 import Replicator from './pages/Replicator';
+import Rotation from './pages/Rotation';
 export default function App() {
   React.useEffect(() => {
     if (localStorage.getItem('userList') === null) {
@@ -16,6 +17,7 @@ export default function App() {
         <Route index element={<Login />} />
         <Route path='login' element={<Login />} />
         <Route path='replicator' element={<Replicator />} />
+        <Route path='rotation' element={<Rotation />} />
         <Route path='new' element={<NewUser />} />
         <Route path='home'>
           <Route path=':user/:platform' element={<Home />} />

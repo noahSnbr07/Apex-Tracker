@@ -3,6 +3,7 @@ import '../styles/replicator.css';
 import { BarLoader } from 'react-spinners';
 import Navbar from '../utils/components/Navbar';
 import Icon from '../utils/components/Icon';
+import makeReadable from '../utils/functions/makeReadable';
 import '../styles/components/navbar.css';
 export default function Replicator() {
     const key = import.meta.env.VITE_API_KEY;
@@ -24,11 +25,7 @@ export default function Replicator() {
         }
     }
 
-    const convertReadability = (string) => {
-        let newStr = string.replace(/_/g, ' ');
-        newStr = newStr[0].toUpperCase() + newStr.slice(1);
-        return newStr;
-    }
+
 
     useEffect(() => { getDataFromAPI(); }, []);
 
@@ -36,11 +33,11 @@ export default function Replicator() {
         return (
             <div className='bundleContainer'>
                 <section>
-                    <h1> {convertReadability(name)} </h1>
-                    {item && <div><p>item:</p> <p> {convertReadability(item)}</p></div>}
+                    <h1> {makeReadable(name)} </h1>
+                    {item && <div><p>item:</p> <p> {makeReadable(item)}</p></div>}
                     {cost && <div><p>cost:</p> <p> {cost}</p></div>}
                     {rarity && <div><p>rarity:</p><p>{rarity}</p></div>}
-                    {type && <div><p>type:</p> <p> {convertReadability(type)}</p></div>}
+                    {type && <div><p>type:</p> <p> {makeReadable(type)}</p></div>}
                     {start && <div><p>start:</p> <p> {start}</p></div>}
                     {end && <div><p>end:</p> <p> {end}</p></div>}
                 </section>
