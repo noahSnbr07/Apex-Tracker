@@ -18,15 +18,17 @@ export default function Login() {
     const UserDropdown = () => {
         return (
             <div className='users-select-dropdown'>
-                <Link to={'/new'} className='user-listed-new'>
-                    <Icon icon={'add_circle'} />
-                </Link>
-                <Link to={'/replicator'} className='user-listed-new'>
-                    <Icon icon={'store'} />
-                </Link>
-                <Link to={'/rotation'} className='user-listed-new'>
-                    <Icon icon={'map'} />
-                </Link>
+                <div className='options-box'>
+                    <Link to={'/replicator'} className='option-btn'>
+                        <Icon icon={'store'} />
+                    </Link>
+                    <Link to={'/new'} className='option-btn'>
+                        <Icon icon={'add_circle'} />
+                    </Link>
+                    <Link to={'/rotation'} className='option-btn'>
+                        <Icon icon={'map'} />
+                    </Link>
+                </div>
                 {usersList.map((user, index) => {
                     return (
                         <div

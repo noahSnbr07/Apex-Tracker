@@ -33,6 +33,43 @@
 
 }
 
+.options-box {
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    position: relative;
+}
+
+.option-btn {
+    height: 100%;
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color);
+    text-decoration: none;
+    background-color: var(--background);
+
+    & span {
+        font-size: 2rem;
+    }
+}
+
+.option-btn:nth-child(1) {
+    margin-right: 7.5px;
+}
+
+.option-btn:nth-child(2) {
+    margin: 0 7.5px;
+}
+
+.option-btn:nth-child(3) {
+    margin-left: 7.5px;
+}
+
 .user-platform {
     height: 75%;
     aspect-ratio: 1 / 1;
