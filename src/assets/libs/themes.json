@@ -1,0 +1,32 @@
+[
+    {
+        "id": 0,
+        "name": "red",
+        "color": "rgb(50, 0, 0)"
+    },
+    {
+        "id": 1,
+        "name": "green",
+        "color": "rgb(0, 50, 0)"
+    },
+    {
+        "id": 2,
+        "name": "blue",
+        "color": "rgb(0, 0, 50)"
+    },
+    {
+        "id": 3,
+        "name": "yellow",
+        "color": "rgb(50, 50, 0)"
+    },
+    {
+        "id": 4,
+        "name": "cyan",
+        "color": "rgb(0, 50, 50)"
+    },
+    {
+        "id": 5,
+        "name": "purple",
+        "color": "rgb(50, 0, 50)"
+    }
+]

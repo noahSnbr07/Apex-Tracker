@@ -22,11 +22,14 @@ export default function Login() {
                     <Link to={'/replicator'} className='option-btn'>
                         <Icon icon={'store'} />
                     </Link>
+                    <Link to={'/rotation'} className='option-btn'>
+                        <Icon icon={'map'} />
+                    </Link>
                     <Link to={'/new'} className='option-btn'>
                         <Icon icon={'add_circle'} />
                     </Link>
-                    <Link to={'/rotation'} className='option-btn'>
-                        <Icon icon={'map'} />
+                    <Link to={'/settings'} className='option-btn'>
+                        <Icon icon={'settings'} />
                     </Link>
                 </div>
                 {usersList.map((user, index) => {
